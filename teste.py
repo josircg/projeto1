@@ -5,6 +5,6 @@ st.write("Esse é o meu texto")
 
 nome = st.text_input('Digite o seu nome')
 if nome:
-    print(nome, 'é um cara legal!')
+    st.write(nome, 'é um cara legal!')
 
-st.image('https://github.com/josircg/projeto1/blob/main/praia.webp')
+st.image('https://raw.githubusercontent.com/josircg/projeto1/refs/heads/main/praia.webp')
